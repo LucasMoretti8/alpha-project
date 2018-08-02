@@ -22,5 +22,16 @@ public class Teste {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         driver.findElement(By.linkText("Tênis Asics Gel Equation 9 Masculino")).click();
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        driver.findElement(By.xpath("//a[@href='/tenis-asics-gel-equation-9-masculino-D18-0650-090-42']")).click();
+
+        driver.findElement(By.id("buy-button-now")).click();
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+
+
     }
 }

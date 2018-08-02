@@ -17,8 +17,8 @@
       <file leaf-file-name="Teste.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+            <state relative-caret-position="129">
+              <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.Teste.deveBuscarUmProduto">
+  <component name="RunManager" selected="JUnit.Teste.deveBuscarUmProduto">
     <configuration name="Teste.deveBuscarUmProduto" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -189,8 +189,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.Teste.deveBuscarUmProduto" />
         <item itemvalue="JUnit.Teste.deveBuscarUmProduto" />
+        <item itemvalue="Android JUnit.Teste.deveBuscarUmProduto" />
         <item itemvalue="Application.Teste" />
       </list>
     </recent_temporary>
@@ -210,6 +210,24 @@
   </component>
   <component name="TestHistory">
     <history-entry file="Teste_deveBuscarUmProduto - 2018.08.02 at 18h 48m 28s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.02 at 18h 50m 57s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.02 at 18h 55m 22s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.02 at 18h 56m 30s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.02 at 18h 58m 15s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.02 at 19h 04m 00s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.02 at 19h 32m 30s.xml">
       <configuration name="Teste.deveBuscarUmProduto" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -251,8 +269,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+        <state relative-caret-position="129">
+          <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
