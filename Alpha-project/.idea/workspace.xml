@@ -17,8 +17,8 @@
       <file leaf-file-name="Teste.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+            <state relative-caret-position="243">
+              <caret line="191" column="52" selection-start-line="191" selection-start-column="52" selection-end-line="191" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Teste.deveEscolherUmaCorIndisponível">
+  <component name="RunManager" selected="JUnit.Teste.deveSimularErroDeDigitacao">
     <configuration name="Teste.deveContinuarComprando" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -109,23 +109,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Teste" />
       <option name="METHOD_NAME" value="deveContinuarComprando" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Teste.deveLimparCarrinho" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Alpha-project" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveLimparCarrinho" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -190,6 +173,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Teste.deveSimularErroDeDigitacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Alpha-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Teste" />
+      <option name="METHOD_NAME" value="deveSimularErroDeDigitacao" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -229,19 +229,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Android JUnit.Teste.deveLimparCarrinho" />
       <item itemvalue="JUnit.Teste.deveContinuarComprando" />
       <item itemvalue="Android JUnit.Teste.deveContinuarComprando" />
       <item itemvalue="JUnit.Teste.deveEscolherUmaCor" />
       <item itemvalue="JUnit.Teste.deveEscolherUmaCorIndisponível" />
+      <item itemvalue="JUnit.Teste.deveSimularErroDeDigitacao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Teste.deveSimularErroDeDigitacao" />
         <item itemvalue="JUnit.Teste.deveEscolherUmaCorIndisponível" />
         <item itemvalue="JUnit.Teste.deveEscolherUmaCor" />
         <item itemvalue="Android JUnit.Teste.deveContinuarComprando" />
         <item itemvalue="JUnit.Teste.deveContinuarComprando" />
-        <item itemvalue="Android JUnit.Teste.deveLimparCarrinho" />
       </list>
     </recent_temporary>
   </component>
@@ -259,35 +259,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 17h 05m 53s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 14m 31s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 17h 07m 10s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 15m 38s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 17h 52m 32s.xml">
-      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 18m 29s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 17h 54m 25s.xml">
-      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 19m 15s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 17h 58m 31s.xml">
-      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 22m 30s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 01m 55s.xml">
-      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 23m 34s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 03m 01s.xml">
-      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    <history-entry file="Teste_deveEscolherUmaCorIndisponível - 2018.08.06 at 18h 24m 20s.xml">
+      <configuration name="Teste.deveEscolherUmaCorIndisponível" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 04m 19s.xml">
-      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 26m 30s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 05m 43s.xml">
-      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 28m 10s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 06m 54s.xml">
-      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 32m 46s.xml">
+      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -336,10 +336,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+        <state relative-caret-position="243">
+          <caret line="191" column="52" selection-start-line="191" selection-start-column="52" selection-end-line="191" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -363,7 +370,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -174,5 +174,21 @@ public class Teste {
         assertTrue(driver.getPageSource().contains("AVISE-ME QUANDO CHEGAR"));
     }
 
-    
+    @Test
+    public void deveSimularErroDeDigitacao(){
+
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lucas\\Documents\\Coding\\Selenium\\geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
+
+        driver.get("https://www.netshoes.com.br/");
+
+        WebElement query = driver.findElement(By.name("q"));
+        query.sendKeys("siofjsdiofjsdofij");
+        query.submit();
+
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+
+        assertTrue(driver.getPageSource().contains("termo procurado"));
+    }
 }
