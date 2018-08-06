@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="115" column="75" selection-start-line="115" selection-start-column="75" selection-end-line="115" selection-end-column="75" />
+              <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.Teste.deveContinuarComprando">
+  <component name="RunManager" selected="JUnit.Teste.deveEscolherUmaCorIndisponível">
     <configuration name="Teste.deveContinuarComprando" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -139,23 +139,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Teste.deveBuscarUmProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Alpha-project" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveBuscarUmProduto" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="Teste.deveContinuarComprando" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -173,13 +156,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Teste.deveLimparCarrinho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.deveEscolherUmaCor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveLimparCarrinho" />
+      <option name="METHOD_NAME" value="deveEscolherUmaCor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Teste.deveEscolherUmaCorIndisponível" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Alpha-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Teste" />
+      <option name="METHOD_NAME" value="deveEscolherUmaCorIndisponível" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -229,19 +229,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Teste.deveBuscarUmProduto" />
-      <item itemvalue="JUnit.Teste.deveLimparCarrinho" />
       <item itemvalue="Android JUnit.Teste.deveLimparCarrinho" />
       <item itemvalue="JUnit.Teste.deveContinuarComprando" />
       <item itemvalue="Android JUnit.Teste.deveContinuarComprando" />
+      <item itemvalue="JUnit.Teste.deveEscolherUmaCor" />
+      <item itemvalue="JUnit.Teste.deveEscolherUmaCorIndisponível" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Teste.deveEscolherUmaCorIndisponível" />
+        <item itemvalue="JUnit.Teste.deveEscolherUmaCor" />
         <item itemvalue="Android JUnit.Teste.deveContinuarComprando" />
         <item itemvalue="JUnit.Teste.deveContinuarComprando" />
         <item itemvalue="Android JUnit.Teste.deveLimparCarrinho" />
-        <item itemvalue="JUnit.Teste.deveLimparCarrinho" />
-        <item itemvalue="JUnit.Teste.deveBuscarUmProduto" />
       </list>
     </recent_temporary>
   </component>
@@ -259,35 +259,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 16h 31m 01s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 16h 35m 17s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 16h 38m 42s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 16h 41m 57s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 16h 52m 22s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 16h 55m 28s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 16h 57m 02s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 16h 59m 36s.xml">
-      <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 17h 05m 53s.xml">
       <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="Teste_deveContinuarComprando - 2018.08.06 at 17h 07m 10s.xml">
       <configuration name="Teste.deveContinuarComprando" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 17h 52m 32s.xml">
+      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 17h 54m 25s.xml">
+      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 17h 58m 31s.xml">
+      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 01m 55s.xml">
+      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 03m 01s.xml">
+      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 04m 19s.xml">
+      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 05m 43s.xml">
+      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveEscolherUmaCor - 2018.08.06 at 18h 06m 54s.xml">
+      <configuration name="Teste.deveEscolherUmaCor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -339,7 +339,7 @@
     <entry file="file://$PROJECT_DIR$/src/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="115" column="75" selection-start-line="115" selection-start-column="75" selection-end-line="115" selection-end-column="75" />
+          <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -363,7 +363,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

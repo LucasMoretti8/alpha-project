@@ -13,7 +13,7 @@ public class Teste {
 
     @Test
     public void deveBuscarUmProduto() {
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\Lucas\\Documents\\Coding\\Selenium\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lucas\\Documents\\Coding\\Selenium\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
 
         driver.get("https://www.netshoes.com.br/");
@@ -72,7 +72,7 @@ public class Teste {
     }
 
     @Test
-    public void deveContinuarComprando(){
+    public void deveContinuarComprando() {
 
         System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lucas\\Documents\\Coding\\Selenium\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
@@ -115,4 +115,64 @@ public class Teste {
 
         assertTrue(driver.getPageSource().contains("Continuar comprando"));
     }
+
+    @Test
+    public void deveEscolherUmaCor() {
+
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lucas\\Documents\\Coding\\Selenium\\geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
+
+        driver.get("https://www.netshoes.com.br/");
+
+        WebElement query = driver.findElement(By.name("q"));
+        query.sendKeys("Asics");
+        query.submit();
+
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        driver.findElement(By.linkText("Tênis Asics Gel Equation 9 Masculino")).click();
+
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        driver.findElement(By.xpath("//a[@href='/tenis-asics-gel-equation-9-masculino-D18-0650-090-44']")).click();
+
+        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+
+        driver.findElement(By.xpath("//a[@href='/tenis-asics-gel-equation-9-masculino-vermelho+preto-D18-0650-068']")).click();
+
+        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+
+        driver.findElement(By.id("buy-button-now")).click();
+
+        assertTrue(driver.getPageSource().contains("Continuar comprando"));
+    }
+
+    @Test
+    public void deveEscolherUmaCorIndisponível() {
+
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lucas\\Documents\\Coding\\Selenium\\geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
+
+        driver.get("https://www.netshoes.com.br/");
+
+        WebElement query = driver.findElement(By.name("q"));
+        query.sendKeys("Asics");
+        query.submit();
+
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        driver.findElement(By.linkText("Tênis Asics Gel Equation 9 Masculino")).click();
+
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        driver.findElement(By.xpath("//a[@href='/tenis-asics-gel-equation-9-masculino-D18-0650-090-42']")).click();
+
+        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+
+        driver.findElement(By.xpath("//a[@href='/tenis-asics-gel-equation-9-masculino-vermelho+preto-D18-0650-068']")).click();
+
+        assertTrue(driver.getPageSource().contains("AVISE-ME QUANDO CHEGAR"));
+    }
+
+    
 }
