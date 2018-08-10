@@ -1,4 +1,3 @@
-import org.apache.commons.lang3.builder.ToStringExclude;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,15 +25,17 @@ public class Teste {
 
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        Timer t1 = new Timer(30);
+        Timer t1 = new Timer(10);
 
         driver.findElement(By.linkText("Tênis Asics Gel Equation 9 Masculino")).click();
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Timer t2 = new Timer(10);
 
         driver.findElement(By.xpath("//a[@href='/tenis-asics-gel-equation-9-masculino-D18-0650-090-42']")).click();
 
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        Timer t3 = new Timer(10);
 
         driver.findElement(By.id("buy-button-now")).click();
 

@@ -14,14 +14,11 @@ public class Timer {
 
     int time;
 
-    public Timer(int time) {
 
-    }
-
-    public void espera(int time) {
-        System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lucas\\Documents\\Coding\\Selenium\\geckodriver.exe");
-        WebDriver driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
-
-    }
+        public Timer(int time){
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lucas\\Documents\\Coding\\Selenium\\geckodriver.exe");
+            WebDriver driver = new FirefoxDriver();
+            driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
+            driver.close();
+        }
 }
