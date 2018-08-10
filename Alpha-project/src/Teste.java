@@ -26,7 +26,7 @@ public class Teste {
 
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        Timer t1 = new espera(30);
+        Timer t1 = new Timer(30);
 
         driver.findElement(By.linkText("Tênis Asics Gel Equation 9 Masculino")).click();
 
