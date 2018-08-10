@@ -9,7 +9,9 @@ import java.util.concurrent.TimeUnit;
 
 import static junit.framework.TestCase.assertTrue;
 
+
 public class Teste {
+
 
     @Test
     public void deveBuscarUmProduto() {
@@ -22,7 +24,9 @@ public class Teste {
         query.sendKeys("Asics");
         query.submit();
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        Timer t1 = new espera(30);
 
         driver.findElement(By.linkText("Tênis Asics Gel Equation 9 Masculino")).click();
 

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbff18c5-3986-4ac3-aa67-26880ef84e46" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Timer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Teste.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Teste.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="191" column="52" selection-start-line="191" selection-start-column="52" selection-end-line="191" selection-end-column="52" />
+            <state relative-caret-position="129">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Timer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Timer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +54,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/ToWait.java" />
+        <option value="$PROJECT_DIR$/src/TempoDeEspera.java" />
+        <option value="$PROJECT_DIR$/src/StandBy.java" />
         <option value="$PROJECT_DIR$/src/Teste.java" />
+        <option value="$PROJECT_DIR$/src/Timer.java" />
       </list>
     </option>
   </component>
@@ -57,7 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -75,6 +91,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -101,14 +118,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Teste.deveSimularErroDeDigitacao">
-    <configuration name="Teste.deveContinuarComprando" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Android JUnit.Teste.deveBuscarUmProduto">
+    <configuration name="Teste.deveBuscarUmProduto" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveContinuarComprando" />
+      <option name="METHOD_NAME" value="deveBuscarUmProduto" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -121,23 +138,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Teste.deveContinuarComprando" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Alpha-project" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveContinuarComprando" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="Teste.deveEscolherUmaCor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
@@ -163,6 +163,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Teste" />
       <option name="METHOD_NAME" value="deveEscolherUmaCorIndisponível" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Teste.deveLimparCarrinho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Alpha-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Teste" />
+      <option name="METHOD_NAME" value="deveLimparCarrinho" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -229,19 +246,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Teste.deveContinuarComprando" />
-      <item itemvalue="Android JUnit.Teste.deveContinuarComprando" />
       <item itemvalue="JUnit.Teste.deveEscolherUmaCor" />
       <item itemvalue="JUnit.Teste.deveEscolherUmaCorIndisponível" />
       <item itemvalue="JUnit.Teste.deveSimularErroDeDigitacao" />
+      <item itemvalue="JUnit.Teste.deveLimparCarrinho" />
+      <item itemvalue="Android JUnit.Teste.deveBuscarUmProduto" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.Teste.deveBuscarUmProduto" />
+        <item itemvalue="JUnit.Teste.deveLimparCarrinho" />
         <item itemvalue="JUnit.Teste.deveSimularErroDeDigitacao" />
         <item itemvalue="JUnit.Teste.deveEscolherUmaCorIndisponível" />
         <item itemvalue="JUnit.Teste.deveEscolherUmaCor" />
-        <item itemvalue="Android JUnit.Teste.deveContinuarComprando" />
-        <item itemvalue="JUnit.Teste.deveContinuarComprando" />
       </list>
     </recent_temporary>
   </component>
@@ -259,35 +276,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 14m 31s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 42m 21s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 15m 38s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 43m 42s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 18m 29s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 47m 36s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 19m 15s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 47m 47s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 22m 30s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 52m 37s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 23m 34s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 53m 34s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveEscolherUmaCorIndisponível - 2018.08.06 at 18h 24m 20s.xml">
-      <configuration name="Teste.deveEscolherUmaCorIndisponível" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 54m 22s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 26m 30s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 56m 44s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 28m 10s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 57m 42s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveSimularErroDeDigitacao - 2018.08.06 at 18h 32m 46s.xml">
-      <configuration name="Teste.deveSimularErroDeDigitacao" configurationId="JUnit" />
+    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 58m 44s.xml">
+      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -296,7 +313,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -304,7 +321,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -312,7 +329,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,6 +343,46 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="184" column="50" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="184" column="50" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1908">
@@ -343,10 +400,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TempoDeEspera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StandBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="191" column="52" selection-start-line="191" selection-start-column="52" selection-end-line="191" selection-end-column="52" />
+        <state relative-caret-position="129">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
