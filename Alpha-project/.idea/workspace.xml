@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbff18c5-3986-4ac3-aa67-26880ef84e46" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuscaDeProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErroDeDigitacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Limbo/Timer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Teste.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Teste.java">
+      <file leaf-file-name="Teste.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="-1224">
+              <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuscaDeProduto.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Timer.java">
+      <file leaf-file-name="ErroDeDigitacao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="18">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,6 +71,13 @@
         <option value="$PROJECT_DIR$/src/StandBy.java" />
         <option value="$PROJECT_DIR$/src/Timer.java" />
         <option value="$PROJECT_DIR$/src/Teste.java" />
+        <option value="$PROJECT_DIR$/src/ECommerePage.java" />
+        <option value="$PROJECT_DIR$/src/NovaBuscaPage.java" />
+        <option value="$PROJECT_DIR$/src/ECommercePage.java" />
+        <option value="$PROJECT_DIR$/src/ECommerceSystemTest.java" />
+        <option value="$PROJECT_DIR$/src/Limbo/Teste.java" />
+        <option value="$PROJECT_DIR$/src/ErroDeDigitacao.java" />
+        <option value="$PROJECT_DIR$/src/BuscaDeProduto.java" />
       </list>
     </option>
   </component>
@@ -74,6 +93,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,13 +108,16 @@
               <item name="Alpha-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Alpha-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alpha-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Limbo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,14 +143,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.Teste.deveBuscarUmProduto">
-    <configuration name="Teste.deveBuscarUmProduto" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Android JUnit.BuscaDeProduto.BuscarUmProduto">
+    <configuration name="BuscaDeProduto.BuscarUmProduto" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveBuscarUmProduto" />
+      <option name="MAIN_CLASS_NAME" value="BuscaDeProduto" />
+      <option name="METHOD_NAME" value="BuscarUmProduto" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ErroDeDigitacao.ErrarABusca" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Alpha-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ErroDeDigitacao" />
+      <option name="METHOD_NAME" value="ErrarABusca" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -139,13 +181,30 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Teste.deveEscolherUmaCor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BuscaDeProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveEscolherUmaCor" />
+      <option name="MAIN_CLASS_NAME" value="BuscaDeProduto" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BuscaDeProduto.BuscarUmProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Alpha-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BuscaDeProduto" />
+      <option name="METHOD_NAME" value="BuscarUmProduto" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -156,47 +215,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Teste.deveEscolherUmaCorIndisponível" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ErroDeDigitacao.ErrarABusca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveEscolherUmaCorIndisponível" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Teste.deveLimparCarrinho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Alpha-project" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveLimparCarrinho" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Teste.deveSimularErroDeDigitacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Alpha-project" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <option name="METHOD_NAME" value="deveSimularErroDeDigitacao" />
+      <option name="MAIN_CLASS_NAME" value="ErroDeDigitacao" />
+      <option name="METHOD_NAME" value="ErrarABusca" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -246,19 +271,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Teste.deveEscolherUmaCor" />
-      <item itemvalue="JUnit.Teste.deveEscolherUmaCorIndisponível" />
-      <item itemvalue="JUnit.Teste.deveSimularErroDeDigitacao" />
-      <item itemvalue="JUnit.Teste.deveLimparCarrinho" />
-      <item itemvalue="Android JUnit.Teste.deveBuscarUmProduto" />
+      <item itemvalue="JUnit.BuscaDeProduto.BuscarUmProduto" />
+      <item itemvalue="JUnit.ErroDeDigitacao.ErrarABusca" />
+      <item itemvalue="JUnit.BuscaDeProduto" />
+      <item itemvalue="Android JUnit.ErroDeDigitacao.ErrarABusca" />
+      <item itemvalue="Android JUnit.BuscaDeProduto.BuscarUmProduto" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.Teste.deveBuscarUmProduto" />
-        <item itemvalue="JUnit.Teste.deveLimparCarrinho" />
-        <item itemvalue="JUnit.Teste.deveSimularErroDeDigitacao" />
-        <item itemvalue="JUnit.Teste.deveEscolherUmaCorIndisponível" />
-        <item itemvalue="JUnit.Teste.deveEscolherUmaCor" />
+        <item itemvalue="Android JUnit.BuscaDeProduto.BuscarUmProduto" />
+        <item itemvalue="Android JUnit.ErroDeDigitacao.ErrarABusca" />
+        <item itemvalue="JUnit.BuscaDeProduto" />
+        <item itemvalue="JUnit.ErroDeDigitacao.ErrarABusca" />
+        <item itemvalue="JUnit.BuscaDeProduto.BuscarUmProduto" />
       </list>
     </recent_temporary>
   </component>
@@ -276,44 +301,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 52m 37s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 14m 55s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 53m 34s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 16m 11s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 54m 22s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 17m 39s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 56m 44s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 18m 08s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 57m 42s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 26m 22s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 12h 58m 44s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 36m 10s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 16h 17m 14s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 45m 20s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 16h 46m 08s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 46m 07s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 16h 48m 01s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 47m 02s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Teste_deveBuscarUmProduto - 2018.08.10 at 16h 54m 30s.xml">
-      <configuration name="Teste.deveBuscarUmProduto" configurationId="AndroidJUnit" />
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 59m 47s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -329,7 +353,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,91 +367,208 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="75" lean-forward="true" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3528">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ECommerceSystemTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/NovaBuscaPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/ECommercePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Timer.java">
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ToWait.java" />
-    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3312">
           <caret line="184" column="50" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3312">
           <caret line="184" column="50" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1908">
           <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/junit/framework/TestCase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="258" selection-start-line="258" selection-end-line="258" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ToWait.java" />
     <entry file="file://$PROJECT_DIR$/src/TempoDeEspera.java" />
     <entry file="file://$PROJECT_DIR$/src/StandBy.java" />
-    <entry file="file://$PROJECT_DIR$/src/Timer.java">
+    <entry file="file://$PROJECT_DIR$/src/NovaBuscaPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/ECommerceSystemTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/ECommercePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="222">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teste.java">
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="-1224">
+          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
