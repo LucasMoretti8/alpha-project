@@ -38,7 +38,7 @@ public class BuscaDeProduto {
 
         query.submit();
 
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         String textoDaBusca = driver.findElement(By.xpath("/html/body/main/section/section[2]/h1")).getText();
 

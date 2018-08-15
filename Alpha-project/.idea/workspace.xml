@@ -21,17 +21,17 @@
       <file leaf-file-name="Teste.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1224">
+            <state relative-caret-position="900">
               <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuscaDeProduto.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuscaDeProduto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ErroDeDigitacao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ErroDeDigitacao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="204">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/src/ECommercePage.java" />
         <option value="$PROJECT_DIR$/src/ECommerceSystemTest.java" />
         <option value="$PROJECT_DIR$/src/Limbo/Teste.java" />
-        <option value="$PROJECT_DIR$/src/ErroDeDigitacao.java" />
         <option value="$PROJECT_DIR$/src/BuscaDeProduto.java" />
+        <option value="$PROJECT_DIR$/src/ErroDeDigitacao.java" />
       </list>
     </option>
   </component>
@@ -95,7 +95,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,6 +117,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.BuscaDeProduto.BuscarUmProduto">
+  <component name="RunManager" selected="Android JUnit.ErroDeDigitacao.ErrarABusca">
     <configuration name="BuscaDeProduto.BuscarUmProduto" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Alpha-project" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -279,8 +279,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.BuscaDeProduto.BuscarUmProduto" />
         <item itemvalue="Android JUnit.ErroDeDigitacao.ErrarABusca" />
+        <item itemvalue="Android JUnit.BuscaDeProduto.BuscarUmProduto" />
         <item itemvalue="JUnit.BuscaDeProduto" />
         <item itemvalue="JUnit.ErroDeDigitacao.ErrarABusca" />
         <item itemvalue="JUnit.BuscaDeProduto.BuscarUmProduto" />
@@ -301,24 +301,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 14m 55s.xml">
-      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 16m 11s.xml">
-      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 17m 39s.xml">
-      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 18m 08s.xml">
-      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 26m 22s.xml">
-      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 36m 10s.xml">
-      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 45m 20s.xml">
       <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
@@ -331,9 +313,28 @@
     <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.14 at 17h 59m 47s.xml">
       <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.15 at 10h 49m 14s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="BuscaDeProduto_BuscarUmProduto - 2018.08.15 at 10h 54m 14s.xml">
+      <configuration name="BuscaDeProduto.BuscarUmProduto" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ErroDeDigitacao_ErrarABusca - 2018.08.15 at 11h 00m 06s.xml">
+      <configuration name="ErroDeDigitacao.ErrarABusca" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ErroDeDigitacao_ErrarABusca - 2018.08.15 at 11h 02m 42s.xml">
+      <configuration name="ErroDeDigitacao.ErrarABusca" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ErroDeDigitacao_ErrarABusca - 2018.08.15 at 11h 03m 50s.xml">
+      <configuration name="ErroDeDigitacao.ErrarABusca" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ErroDeDigitacao_ErrarABusca - 2018.08.15 at 11h 04m 59s.xml">
+      <configuration name="ErroDeDigitacao.ErrarABusca" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -343,9 +344,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -353,8 +354,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -367,6 +368,33 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -548,27 +576,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Limbo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
+        <state relative-caret-position="900">
           <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BuscaDeProduto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErroDeDigitacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

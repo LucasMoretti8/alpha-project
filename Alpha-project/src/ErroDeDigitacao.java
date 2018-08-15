@@ -25,6 +25,12 @@ public class ErroDeDigitacao {
 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        assertTrue(driver.getPageSource().contains("termo procurado"));
+        String textoDaBusca = driver.findElement(By.xpath("/html/body/main/section/section[2]/div/div/h2")).getText();
+
+        assertTrue(textoDaBusca.equals("NÃO FOI POSSÍVEL ENCONTRAR RESULTADOS PARA O TERMO PROCURADO"));
+
+
+
     }
+
 }
