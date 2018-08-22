@@ -36,12 +36,10 @@
       <file leaf-file-name="EcommerceSystemTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EcommerceSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="207">
+              <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1514#1515#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +48,8 @@
       <file leaf-file-name="NovaBuscaPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NovaBuscaPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="117">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
@@ -386,24 +384,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EcommerceSystemTest - 2018.08.21 at 11h 17m 49s.xml">
-      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="EcommerceSystemTest - 2018.08.21 at 11h 19m 19s.xml">
-      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="EcommerceSystemTest - 2018.08.21 at 11h 21m 11s.xml">
-      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="EcommerceSystemTest - 2018.08.21 at 11h 21m 58s.xml">
-      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="EcommerceSystemTest - 2018.08.21 at 11h 22m 20s.xml">
-      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="EcommerceSystemTest - 2018.08.21 at 20h 38m 39s.xml">
-      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="EcommerceSystemTest - 2018.08.21 at 21h 23m 38s.xml">
       <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
     </history-entry>
@@ -414,6 +394,24 @@
       <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="EcommerceSystemTest - 2018.08.21 at 21h 29m 54s.xml">
+      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="EcommerceSystemTest - 2018.08.21 at 21h 48m 30s.xml">
+      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="EcommerceSystemTest - 2018.08.21 at 21h 49m 44s.xml">
+      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="EcommerceSystemTest - 2018.08.21 at 21h 50m 15s.xml">
+      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="EcommerceSystemTest - 2018.08.21 at 21h 51m 44s.xml">
+      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="EcommerceSystemTest - 2018.08.21 at 21h 54m 11s.xml">
+      <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="EcommerceSystemTest - 2018.08.21 at 21h 55m 47s.xml">
       <configuration name="EcommerceSystemTest" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -752,18 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NovaBuscaPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NovaCustomizaçãoPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -804,14 +790,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcommerceSystemTest.java">
+    <entry file="file://$PROJECT_DIR$/src/NovaBuscaPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="117">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcommerceSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
