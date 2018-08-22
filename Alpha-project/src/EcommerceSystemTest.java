@@ -39,9 +39,9 @@ public class EcommerceSystemTest {
         espera.esperarLimite();
 
         String textoDaBusca = driver.findElement(By.xpath("/html/body/main/section/div/section/div[3]/div[2]/div[1]/a")).getText();
-//        assertTrue(textoDaBusca.equals("Continuar comprando"));
-        System.out.println(textoDaBusca);
+        assertTrue(textoDaBusca.equals("Continuar comprando"));
     }
+    
     @After
     public void finaliza(){
         driver.close();
