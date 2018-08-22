@@ -13,6 +13,8 @@ public class NovaBuscaPage {
 
     public void visita() {
         driver.get("https://netshoes.com.br");
+        NovaEsperaPage espera = new NovaEsperaPage(driver);
+        espera.esperarLimite();
     }
 
     public void busca(String nome) {
@@ -22,5 +24,7 @@ public class NovaBuscaPage {
         txtNome.sendKeys(nome);
 
         txtNome.submit();
+        NovaEsperaPage espera = new NovaEsperaPage(driver);
+        espera.esperarLimite();
     }
 }

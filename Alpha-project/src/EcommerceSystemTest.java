@@ -26,30 +26,18 @@ public class EcommerceSystemTest {
         NovaEsperaPage espera = new NovaEsperaPage(driver);
 
         busca.visita();
-        busca.busca("RoadHawk ff Sp Masculino");
-
-        espera.esperarLimite();
+        busca.busca("Tênis Asics Gel Promesa Masculino");
 
         compra.selecionarProduto();
 
-        espera.esperarLimite();
+        customizacao.customizarCor();
 
         customizacao.customizarTamanho();
 
-        espera.esperarLimite();
-
-        customizacao.customizarCor();
-
-        espera.esperarLimite();
-
         compra.aceitarProduto();
 
-        espera.esperarLimite();
-
         String textoDaBusca = driver.findElement(By.xpath("/html/body/main/section/div/section/div[3]/div[2]/div[1]/a")).getText();
-                assertTrue(textoDaBusca.equals("Continuar comprando"));
-
-
+        assertTrue(textoDaBusca.equals("Continuar comprando"));
     }
     @After
     public void finaliza(){

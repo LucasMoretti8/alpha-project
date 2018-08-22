@@ -11,7 +11,7 @@ public class NovaCompraPage {
     }
 
     public void selecionarProduto() {
-        driver.findElement(By.linkText("Tênis Asics Roadhawk FF Sp Masculino")).click();
+        driver.findElement(By.linkText("Tênis Asics Gel Promesa Masculino")).click();
     }
 
     public void aceitarProduto(){
@@ -30,6 +30,7 @@ public class NovaCompraPage {
     public NovaCompraPage novo() {
         driver.findElement(By.linkText("RoadHawk ff Sp Masculino")).click();
         return new NovaCompraPage(driver);
+
     }
 
 

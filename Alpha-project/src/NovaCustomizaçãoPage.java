@@ -11,10 +11,14 @@ public class NovaCustomizaçãoPage {
     }
 
     public void customizarTamanho(){
-        driver.findElement(By.xpath("/html/body/main/div[1]/section/section[3]/section[2]/div/ul/li[10]/a")).click();
+        driver.findElement(By.xpath("/html/body/main/div[1]/section/section[3]/section[2]/div/ul/li[9]/a")).click();
+        NovaEsperaPage espera = new NovaEsperaPage(driver);
+        espera.esperarLimite();
     }
 
     public void customizarCor(){
-        driver.findElement(By.xpath("/html/body/main/div[1]/section/section[3]/section[1]/div/ul/li/a")).click();
+        driver.findElement(By.xpath("/html/body/main/div[1]/section/section[3]/section[1]/div/ul/li[3]/a/i")).click();
+        NovaEsperaPage espera = new NovaEsperaPage(driver);
+        espera.esperarLimite();
     }
 }

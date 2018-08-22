@@ -10,6 +10,6 @@ public class NovaEsperaPage {
     }
 
     public void esperarLimite() {
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 }
