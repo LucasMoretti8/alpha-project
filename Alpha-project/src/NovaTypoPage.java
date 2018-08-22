@@ -2,12 +2,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class NovaBuscaPage {
-
+public class NovaTypoPage {
 
     private final WebDriver driver;
 
-    public NovaBuscaPage(WebDriver driver){
+    public NovaTypoPage(WebDriver driver){
 
         this.driver = driver;
     }
@@ -18,7 +17,7 @@ public class NovaBuscaPage {
         espera.esperarLimite();
     }
 
-    public void busca(String nome) {
+    public void typo(String nome) {
 
         WebElement txtNome = driver.findElement(By.name("q"));
 

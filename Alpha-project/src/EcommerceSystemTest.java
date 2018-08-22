@@ -11,6 +11,7 @@ public class EcommerceSystemTest {
     private FirefoxDriver driver;
     private NovaBuscaPage busca;
     private NovaBuscaPage compra;
+    private NovaLimpaPage limpa;
 
     @Before
     public void inicializa() {
@@ -41,9 +42,54 @@ public class EcommerceSystemTest {
         String textoDaBusca = driver.findElement(By.xpath("/html/body/main/section/div/section/div[3]/div[2]/div[1]/a")).getText();
         assertTrue(textoDaBusca.equals("Continuar comprando"));
     }
-    
-    @After
+
+    @Test
+    public void DeveLimparOCarrinho(){
+
+        NovaBuscaPage busca = new NovaBuscaPage(driver);
+        NovaCompraPage compra = new NovaCompraPage(driver);
+        NovaCustomizaçãoPage customizacao = new NovaCustomizaçãoPage(driver);
+        NovaEsperaPage espera = new NovaEsperaPage(driver);
+        NovaLimpaPage limpa = new NovaLimpaPage(driver);
+
+        busca.visita();
+        busca.busca("Tênis Asics Gel Promesa Masculino");
+
+        compra.selecionarProduto();
+
+        customizacao.customizarCor();
+
+        customizacao.customizarTamanho();
+
+        compra.aceitarProduto();
+
+        espera.esperarLimite();
+
+        limpa.limpar();
+
+        espera.esperarLimite();
+
+        String textoDaBusca = driver.findElement(By.xpath("/html/body/main/section/div/section/div/div[1]/h2")).getText();
+        assertTrue(textoDaBusca.equals("Seu carrinho está vazio"));
+    }
+
+    @Test
+    public void DeveErrarABusca() {
+
+        NovaBuscaPage busca = new NovaBuscaPage(driver);
+        NovaEsperaPage espera = new NovaEsperaPage(driver);
+
+        busca.visita();
+        busca.busca("aliweaihfihfiahfiafhahafh");
+
+        espera.esperarLimite();
+
+        String textoDaBusca = driver.findElement(By.xpath("/html/body/main/section/section[2]/div/div/h2")).getText();
+         assertTrue(textoDaBusca.equals("NÃO FOI POSSÍVEL ENCONTRAR RESULTADOS PARA O TERMO PROCURADO"));
+    }
+        @After
     public void finaliza(){
+
         driver.close();
     }
 }
