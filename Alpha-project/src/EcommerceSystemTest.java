@@ -10,7 +10,7 @@ public class EcommerceSystemTest {
 
     private FirefoxDriver driver;
     private NovaBuscaPage busca;
-    private NovaBuscaPage compra;
+    private NovaCompraPage compra;
     private NovaLimpaPage limpa;
 
     @Before
