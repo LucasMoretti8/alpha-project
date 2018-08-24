@@ -1,3 +1,6 @@
+package Scenarios;
+
+import Pages.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,9 +12,9 @@ import static org.junit.Assert.assertTrue;
 public class EcommerceSystemTest {
 
     private FirefoxDriver driver;
-    private NovaBuscaPage busca;
-    private NovaCompraPage compra;
-    private NovaLimpaPage limpa;
+    private BuscaPage busca;
+    private CompraPage compra;
+    private LimpaPage limpa;
 
     @Before
     public void inicializa() {
@@ -21,10 +24,10 @@ public class EcommerceSystemTest {
     @Test
     public void DeveBuscarEComprarUmProduto(){
 
-        NovaBuscaPage busca = new NovaBuscaPage(driver);
-        NovaCompraPage compra = new NovaCompraPage(driver);
-        NovaCustomizaçãoPage customizacao = new NovaCustomizaçãoPage(driver);
-        NovaEsperaPage espera = new NovaEsperaPage(driver);
+        BuscaPage busca = new BuscaPage(driver);
+        CompraPage compra = new CompraPage(driver);
+        CustomizaçãoPage customizacao = new CustomizaçãoPage(driver);
+        EsperaPage espera = new EsperaPage(driver);
 
         busca.visita();
         busca.busca("Tênis Asics Gel Promesa Masculino");
@@ -46,11 +49,11 @@ public class EcommerceSystemTest {
     @Test
     public void DeveLimparOCarrinho(){
 
-        NovaBuscaPage busca = new NovaBuscaPage(driver);
-        NovaCompraPage compra = new NovaCompraPage(driver);
-        NovaCustomizaçãoPage customizacao = new NovaCustomizaçãoPage(driver);
-        NovaEsperaPage espera = new NovaEsperaPage(driver);
-        NovaLimpaPage limpa = new NovaLimpaPage(driver);
+        BuscaPage busca = new BuscaPage(driver);
+        CompraPage compra = new CompraPage(driver);
+        CustomizaçãoPage customizacao = new CustomizaçãoPage(driver);
+        EsperaPage espera = new EsperaPage(driver);
+        LimpaPage limpa = new LimpaPage(driver);
 
         busca.visita();
         busca.busca("Tênis Asics Gel Promesa Masculino");
@@ -76,8 +79,8 @@ public class EcommerceSystemTest {
     @Test
     public void DeveErrarABusca() {
 
-        NovaBuscaPage busca = new NovaBuscaPage(driver);
-        NovaEsperaPage espera = new NovaEsperaPage(driver);
+        BuscaPage busca = new BuscaPage(driver);
+        EsperaPage espera = new EsperaPage(driver);
 
         busca.visita();
         busca.busca("aliweaihfihfiahfiafhahafh");

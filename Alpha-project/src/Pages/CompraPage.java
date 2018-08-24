@@ -1,12 +1,14 @@
+package Pages;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 
-public class NovaCompraPage {
+public class CompraPage {
 
     private WebDriver driver;
 
-    public NovaCompraPage(WebDriver driver){
+    public CompraPage(WebDriver driver){
         this.driver = driver;
     }
 
@@ -27,9 +29,9 @@ public class NovaCompraPage {
         return driver.getPageSource().contains(nome);
     }
 
-    public NovaCompraPage novo() {
+    public CompraPage novo() {
         driver.findElement(By.linkText("RoadHawk ff Sp Masculino")).click();
-        return new NovaCompraPage(driver);
+        return new CompraPage(driver);
 
     }
 
